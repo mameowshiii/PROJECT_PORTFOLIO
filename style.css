@@ -1,0 +1,32 @@
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0b0b0b;
+}
+::-webkit-scrollbar-thumb {
+    background: #6b21a8;
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Glowing Card Effect */
+.skill-card:hover {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+    transform: translateY(-5px);
+}
+
+.edu-item {
+    transition: all 0.3s ease;
+}
+
+.edu-item:hover {
+    background: #1f1f1f;
+    transform: translateX(10px);
+}
